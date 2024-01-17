@@ -29,7 +29,7 @@
 nav ul :last-child{
    /* margin: 0 15px; */
 }
-#home .box {
+#home .black {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -147,7 +147,7 @@ nav ul :last-child{
     background-color: black;
 }
 .scroll-1{
-    height: 85vh;
+    height: 100%;
     width: 80%;
     margin: auto;
     display: flex;
@@ -195,6 +195,42 @@ justify-content: center;
     width: 62%;
     top: 10%;
     z-index: 9;
+}
+#QNA{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+   
+    
+}
+.box{
+    background-color: rgb(45 45 45);
+    width: 100%;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.ans{
+    background-color: rgb(45 45 45);
+    width: 100%;
+    padding: 20px 15px;
+    font-size: 1.2rem;
+    display: none;
+}
+.box:hover{
+    background-color: rgba(128, 128, 128, 0.51);
+}
+.box>span{
+    font-size: 1.5rem;
 }
 /* ---------------------------------------------------------------------------------- */
 
