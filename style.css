@@ -147,7 +147,7 @@ nav ul :last-child{
     background-color: black;
 }
 .scroll-1{
-    height: 80vh;
+    height: 85vh;
     width: 80%;
     margin: auto;
     display: flex;
@@ -178,9 +178,23 @@ nav ul :last-child{
     font-weight: bold;
     font-style: italic;
     margin: 15px 0;
+    color: white;
+
 }
 .h2{
     font-size: 1.1rem;
+    color: white;
+
+}
+.content-2{
+    display: flex;
+justify-content: center;
+}
+#vid2{
+    position: absolute;
+    width: 62%;
+    top: 10%;
+    z-index: 9;
 }
 /* ---------------------------------------------------------------------------------- */
 
