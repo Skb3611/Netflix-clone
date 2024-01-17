@@ -147,7 +147,8 @@ nav ul :last-child{
     background-color: black;
 }
 .scroll-1{
-    height: 100%;
+    min-height: 80vh;
+    max-height: 100%;
     width: 80%;
     margin: auto;
     display: flex;
