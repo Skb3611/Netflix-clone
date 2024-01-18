@@ -326,7 +326,8 @@ footer .footer-list ul{
     font-size: 2rem;
 }
 .h2{
-font-size: 0.7;
+font-size: 1rem;
+text-align: center;
 }
 .content img{
     width: 80%;
@@ -351,23 +352,40 @@ font-size: 0.7;
     }
     .btn-red{
         font-size: 0.8rem;
-        width: 40%;
+        width: 35%;
     }
     #loginbox{
         flex-direction: column;
         justify-content: space-evenly;
         /* height: 40%; */
     }
-    .loginbox{
+    .inputs{
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
         /* height: 40%; */
+    }
+    .inputs input{
+        width: 70%;
     }
     #loginbox input{
         width: 80%;
         padding: 8px 10px;
         margin: 10px;
         height: 20%;
+    }
+    .box{
+        padding: 8px;
+    }
+    .box>span{
+        
+        font-size: 1rem;
+    }
+    footer .footer-list ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .scroll-1{
+        padding: 0;
     }
 }
 
