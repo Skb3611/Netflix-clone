@@ -294,10 +294,10 @@ footer .footer-list ul{
         justify-content: space-between;
     }
     .main div{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .main :first-child{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     .btn-red{
         font-size: 1rem;
@@ -307,13 +307,13 @@ footer .footer-list ul{
         width: 100%;
     }
 #home{
-    height: 60vh;
+    max-height: 50vh;
 }
 .scroll-1{
     min-height: 50vh;
     max-height: 100%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 .text{
     margin: 10px 0;
@@ -391,10 +391,11 @@ text-align: center;
 
 @media screen and (max-width:1200px) and (min-width:1000px){
     #home{
-        height: 70vh;
+        height: 50vh;
     }
     .scroll-1{
-        min-height: 60vh;
+        min-height: 50vh;
+        max-height: 60vh;
     }
     .h1{
         font-size: 2.5rem;
