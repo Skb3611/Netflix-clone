@@ -287,6 +287,10 @@ footer .footer-list ul{
 /* ---------------------------------------------------------------------------------- */
 
 @media screen and (max-width:1000px){
+    #home nav{
+        width: 90%;
+        
+    }
     #logo{
         height: 1.5rem;
     }
@@ -294,10 +298,10 @@ footer .footer-list ul{
         justify-content: space-between;
     }
     .main div{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .main :first-child{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .btn-red{
         font-size: 1rem;
@@ -307,7 +311,7 @@ footer .footer-list ul{
         width: 100%;
     }
 #home{
-    max-height: 50vh;
+    max-height: 60vh;
 }
 .scroll-1{
     min-height: 50vh;
@@ -323,10 +327,11 @@ footer .footer-list ul{
     flex-direction: column-reverse;
 }
 .h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 .h2{
-font-size: 1rem;
+font-size: 0.8rem;
 text-align: center;
 }
 .content img{
@@ -338,6 +343,7 @@ text-align: center;
 }
 
 @media screen and (max-width:800px){
+  
     #logo{
         height: 1.5rem;
     }
@@ -348,11 +354,11 @@ text-align: center;
         font-size: 1rem;
     }
     .main :first-child{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .btn-red{
         font-size: 0.8rem;
-        width: 35%;
+        width: 37%;
     }
     #loginbox{
         flex-direction: column;
@@ -383,6 +389,7 @@ text-align: center;
     }
     footer .footer-list ul{
         grid-template-columns: repeat(2,1fr);
+        font-size: 0.8rem;
     }
     .scroll-1{
         padding: 0;
@@ -391,7 +398,7 @@ text-align: center;
 
 @media screen and (max-width:1200px) and (min-width:1000px){
     #home{
-        height: 50vh;
+        height: 70vh;
     }
     .scroll-1{
         min-height: 50vh;
